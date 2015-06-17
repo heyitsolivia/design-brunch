@@ -21,3 +21,4 @@ Design brunch options because seriously
 | Dolcezza      | Yes           | Pastries                | ?      | 4 blocks | Indoors   |
 | Filter North  | Yes           | Pastries                | ?      | ?        | ?         |
 | Filter South  | Yes           | Pastries                | ?      | ?        | ?         |
+| Luna Grill    | Yes           | Diner food              | ?      | 1 block  | Indoors   |            

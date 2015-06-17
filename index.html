@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset='utf-8' />
+    <title></title>
+    <meta name='viewport' content='initial-scale=1,maximum-scale=1,user-scalable=no' />
+    <script src='https://api.tiles.mapbox.com/mapbox.js/v2.1.9/mapbox.js'></script>
+    <link href='https://api.tiles.mapbox.com/mapbox.js/v2.1.9/mapbox.css' rel='stylesheet' />
+    <!-- <link href='https://api.tiles.mapbox.com/mapbox-gl-js/v0.8.0/mapbox-gl.css' rel='stylesheet' /> -->
+    <style>
+        body { margin:0; padding:0; }
+        .map { position:absolute; top:0; bottom:0; width:100%; }
+    </style>
+</head>
+<body>
+
+<div id='map-one' class='map'> </div>
+<script>
+L.mapbox.accessToken = 'pk.eyJ1IjoiaGV5aXRzb2xpdmlhIiwiYSI6IjQ2MTJjMDBhZWY3MDI3MDVhYTg3ZjMzNjY2ZDhkOWFlIn0.XvTNrXpQGQZIZBSvWwNV0w';
+
+var geojson = [
+  {
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -77.0429840,
+          38.9070870
+        ]
+      },
+      "properties": {
+        "title": "Sunlight Foundation",
+        "marker-color": "#F7ca18",
+        "marker-size": "large",
+        "marker-symbol": "heart"
+      }
+    }
+  ]
+}
+];
+
+var map = L.mapbox.map('map-one', 'heyitsolivia.mfb8nc5j').setView([38.9070870,-77.0429840], 17);
+
+var myLayer = L.mapbox.featureLayer().addTo(map);
+myLayer.setGeoJSON(geojson);
+
+</script>
+
+</body>
+</html>

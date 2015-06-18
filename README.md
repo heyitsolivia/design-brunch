@@ -7,7 +7,7 @@ Design brunch options because seriously
 | ------------- |---------------| ------------------------|--------|----------|-----------|-------|
 | 1800(2)       | ?             | Breakfast sammiches     | No     | 1 block  | Indoors   |
 | GBD           | Yes           | Chicken biscuits/donuts | Yes    | 1 block  | Indoors   |
-| Starbucks     | Yes           | Premade things?         | ?      | 1 block  | Both      |
+| Starbucks     | Yes           | Premade things?         | Yes    | 1 block  | Both      |
 | District Taco | ?             | Um tacos                | ?      | 2 blocks | Indoors   |
 | Greek Deli    | No            | Breakfast wrap          | No     | 2 blocks | Outdoors  |
 | Retrospect    | Yes           | Pastries                | ?      | 3 blocks | Both      |
@@ -18,7 +18,7 @@ Design brunch options because seriously
 | Saxby's       | Yes           | Breakfast sammiches     | Yes    | 1 block  | Indoors   |
 | Nikki's       | ?             | Diner food              | ?      | 2 blocks | Indoors   |
 | Bourbon       | Yes           | Light Breakfast         | ?      | 3 blocks | Indoors   |
-| Dolcezza      | Yes           | Pastries                | ?      | 4 blocks | Indoors   |
+| Dolcezza      | Yes           | Pastries                | Yes    | 4 blocks | Indoors   |
 | Filter North  | Yes           | Pastries                | ?      | ?        | ?         |
 | Filter South  | Yes           | Pastries                | ?      | ?        | ?         |
 | Luna Grill    | Yes           | Diner food              | ?      | 1 block  | Indoors   |            

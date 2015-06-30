@@ -1,0 +1,28 @@
+{
+  "name": "design-brunch",
+  "version": "1.0.0",
+  "description": "Design brunch options because seriously",
+  "main": "index.js",
+  "scripts": {
+    "build": "webpack",
+    "dev": "webpack-dev-server --devtool eval --progress --colors --hot --content-base build"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/heyitsolivia/design-brunch.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/heyitsolivia/design-brunch/issues"
+  },
+  "homepage": "https://github.com/heyitsolivia/design-brunch",
+  "devDependencies": {
+    "node-libs-browser": "^0.5.2",
+    "webpack": "^1.10.0"
+  },
+  "dependencies": {
+    "webpack": "^1.10.0",
+    "webpack-dev-server": "^1.10.1"
+  }
+}

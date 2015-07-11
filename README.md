@@ -22,3 +22,4 @@ Design brunch options because seriously
 | Filter North  | Yes           | Pastries                | ?      | ?        | ?         |
 | Filter South  | Yes           | Pastries                | ?      | ?        | ?         |
 | Luna Grill    | Yes           | Diner food              | ?      | 1 block  | Indoors   |            
+| Le Pain Quotidien | Yes       | Bakery                  | Yes    | 3 blocks | Both      |
